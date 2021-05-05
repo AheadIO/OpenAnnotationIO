@@ -19,7 +19,7 @@ OpenAnnotationIO aim to provide a simple extendable way to share and model compl
 
 The intended use of OpenAnnotatioIO interoperability is either for sharing public annotations with others or for the migration of private annotations between systems or devices. The annotations must be able to be integrated into existing media collections, APIs, metadata storages and reused without loss of significant information, retaining the contextuality.
 
-## Guiding Principles and Values for the Open AnnotationIO
+## Guiding Principles and Values
 
 ## Use Cases
 
