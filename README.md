@@ -20,6 +20,16 @@ OpenAnnotationIO aim to provide a simple extendable way to share and model compl
 The intended use of OpenAnnotatioIO interoperability is either for sharing public annotations with others or for the migration of private annotations between systems or devices. The annotations must be able to be integrated into existing media collections, APIs, metadata storages and reused without loss of significant information, retaining the contextuality.
 
 ## Guiding Principles and Values
+The primary aim is to create a standard description framework for sharing annotations between systems.
+
+## Basics
+### Annotation 
+An Annotation is a Resource. An Annotation usually has a single Body, which is a comment, a scribble, a video an image a sound, and a Target that the Body is somehow "about". The Annotation could contain also additional descriptive properties.
+
+**Example Use Case**: Gaelle has written a note that makes a comment about a particular movie shot. Her client application creates an Annotation with the note as the body resource, and the movie shot as the target resource.
+
+### Motivations
+The “aboutness” that is described in the Annotation is conveyed using an instance of the oaio:Motivation class.
 
 ## Use Cases
 
