@@ -36,6 +36,25 @@ An Annotation is a Resource. An Annotation usually has a single Body, which is a
 ### Motivations
 The “aboutness” that is described in the Annotation is conveyed using an instance of the oaio:Motivation class. 
 
+### External Resource
+
+### Basic Resource Types
+#### Dataset
+#### Text
+#### Sound
+#### Video
+#### Image
+#### Model
+
+### Agents
+More information about the agents behind the creation of an Annotation is normally required with an identification IRI. For instance they could be includes whether individuals, a group or a software and with is additional properties such as real name, company name, position, and email address.
+
+**Example Use Case:** Gaelle wants to submit an Annotation to a system that does not know about her identity, for instance if the IRI of the user is from a Database that ins't shared, she would like her name to be displayed and a way for other system to either add her comment in the database or either send her a notification when new notes are added in a federated system sceneraio. Her software client adds this information to the Annotation to send to external services.
+
+### Audience
+
+### Rights
+
 ### Selectors
 Annotations refer to part of a media, rather than all of it, as the Target. We call that part of the media a Segment. A Selector is used to describe how to determine the Segment from within the Source media. Multiple Selectors can be given to describe the same Segment in different ways.
 
@@ -60,6 +79,9 @@ Another common method of selecting elements and content within a resource that s
 #### SVG Selector
 
 #### Range Selector
+
+### States
+### Styles
 
 ## Use Cases
 While there are too many use cases to discuss them all in detail, it is useful to hightlight some key scenarios that serve as input to the design process.
