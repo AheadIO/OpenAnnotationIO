@@ -49,7 +49,7 @@ The “aboutness” that is described in the Annotation is conveyed using an ins
 ### Agents
 More information about the agents behind the creation of an Annotation is normally required with an identification IRI. For instance they could be includes whether individuals, a group or a software and with is additional properties such as real name, company name, position, and email address.
 
-**Example Use Case:** Gaelle wants to submit an Annotation to a system that does not know about her identity, for instance if the IRI of the user is from a Database that ins't shared, she would like her name to be displayed and a way for other system to either add her comment in the database or either send her a notification when new notes are added in a federated system sceneraio. Her software client adds this information to the Annotation to send to external services.
+**Example Use Case:** Gaelle wants to submit an Annotation to a system that does not know about her identity, for instance if the IRI of the user is from a Database that ins't shared, she would like her name to be displayed and a way for other system to either add her comment in the Database or either send her a notification when new notes are added in a federated system sceneraio. Her software client adds this information to the Annotation to send to external services.
 
 ### Audience
 
@@ -81,7 +81,17 @@ Another common method of selecting elements and content within a resource that s
 #### Range Selector
 
 ### States
+
 ### Styles
+
+### Multiplicity
+#### Choice
+A Choice is a set of resources. The client application can decide what resource to choose either trough an automated algorithm that should make use of the information present in the Annotation to do so, or present a list and require the user to make the decision. The Choice should have a default option.
+
+**Example Use Case:** Galle annotates a frame that is published in multiple Metadata Storages, however the representations are identical. One copy is in her studio based Metadata Storage, the other in her institutional Metadata Storage. She wishes to explicitly link both of the Targets to ensure her annotation can be presented along with at least one copy of the frame from the most convenient location to the Annotation Consumer.
+
+#### Composite
+#### List
 
 ## Use Cases
 While there are too many use cases to discuss them all in detail, it is useful to hightlight some key scenarios that serve as input to the design process.
