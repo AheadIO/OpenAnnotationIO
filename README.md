@@ -74,6 +74,22 @@ Tagging resources, either with a simple string or a semantic URI, is also a very
 
 Machines also create annotations to be consumed by other machines. Image/Video Mining applications can quickly annotate every image or audio, and then build upon those annotations to create relationships between them.
 
+### Annotate a single Image
+
+### Annotate a range in a video
+
+### Annotate a 3D Model
+
+### Annotate two media in compare mode
+
+### Annotate a media layer
+
+### Annotate a clip
+
+### Annotate a track
+
+### Annotate a selection of clips
+
 ## Data Model
 
 ## Data Model Modules
