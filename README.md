@@ -122,6 +122,9 @@ Machines also create annotations to be consumed by other machines. Image/Video M
 
 ### Annotate a selection of clips
 
+### Requirements
+The following requirements are summarized from the use cases presented above.
+
 ## Data Model
 
 ## Data Model Modules
