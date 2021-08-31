@@ -21,6 +21,7 @@ The intended use of OpenAnnotatioIO interoperability is either for sharing publi
 
 ## Terminology
 **IRI** https://datatracker.ietf.org/doc/html/rfc3987
+
 **Resource** An item of interest that MAY be identified by an IRI.
 
 ## Guiding Principles and Values
